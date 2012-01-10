@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0532776914BC9F4A00F385BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532776814BC9F4A00F385BD /* UIKit.framework */; };
+		0532776B14BC9F4A00F385BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532776A14BC9F4A00F385BD /* Foundation.framework */; };
+		0532776D14BC9F4A00F385BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532776C14BC9F4A00F385BD /* CoreGraphics.framework */; };
+		0532778714BC9F4A00F385BD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532778614BC9F4A00F385BD /* SenTestingKit.framework */; };
+		0532778814BC9F4A00F385BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532776814BC9F4A00F385BD /* UIKit.framework */; };
+		0532778914BC9F4A00F385BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0532776A14BC9F4A00F385BD /* Foundation.framework */; };
+		0532779114BC9F4A00F385BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0532778F14BC9F4A00F385BD /* InfoPlist.strings */; };
+		053277A314BC9F8800F385BD /* laijiewo_customerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053277A214BC9F8800F385BD /* laijiewo_customerTests.m */; };
+		053277B614BC9FC100F385BD /* LJWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053277A714BC9FC100F385BD /* LJWAppDelegate.m */; };
+		053277B714BC9FC100F385BD /* LJWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053277A914BC9FC100F385BD /* LJWRootViewController.m */; };
+		053277B814BC9FC100F385BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053277AD14BC9FC100F385BD /* InfoPlist.strings */; };
+		053277B914BC9FC100F385BD /* LJWRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053277AF14BC9FC100F385BD /* LJWRootViewController.xib */; };
+		053277BB14BC9FC100F385BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 053277B414BC9FC100F385BD /* main.m */; };
+		053277D814BCA08E00F385BD /* liblaijiewo-shared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 053277CF14BCA07B00F385BD /* liblaijiewo-shared.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0532778A14BC9F4A00F385BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0532775B14BC9F4800F385BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0532776314BC9F4A00F385BD;
+			remoteInfo = "laijiewo-customer";
+		};
+		053277CE14BCA07B00F385BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05434EE314BC89EC00CCB14E;
+			remoteInfo = "laijiewo-shared";
+		};
+		053277D014BCA07B00F385BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05434EF314BC89EC00CCB14E;
+			remoteInfo = "laijiewo-sharedTests";
+		};
+		053277D614BCA08600F385BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 05434EE214BC89EC00CCB14E;
+			remoteInfo = "laijiewo-shared";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0532776414BC9F4A00F385BD /* laijiewo-customer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laijiewo-customer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0532776814BC9F4A00F385BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0532776A14BC9F4A00F385BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0532776C14BC9F4A00F385BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0532778514BC9F4A00F385BD /* laijiewo-customerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laijiewo-customerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0532778614BC9F4A00F385BD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0532778E14BC9F4A00F385BD /* laijiewo-customerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "laijiewo-customerTests-Info.plist"; sourceTree = "<group>"; };
+		0532779014BC9F4A00F385BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		053277A114BC9F8800F385BD /* laijiewo_customerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = laijiewo_customerTests.h; sourceTree = "<group>"; };
+		053277A214BC9F8800F385BD /* laijiewo_customerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laijiewo_customerTests.m; sourceTree = "<group>"; };
+		053277A614BC9FC100F385BD /* LJWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWAppDelegate.h; sourceTree = "<group>"; };
+		053277A714BC9FC100F385BD /* LJWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWAppDelegate.m; sourceTree = "<group>"; };
+		053277A814BC9FC100F385BD /* LJWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWRootViewController.h; sourceTree = "<group>"; };
+		053277A914BC9FC100F385BD /* LJWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWRootViewController.m; sourceTree = "<group>"; };
+		053277AE14BC9FC100F385BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		053277B014BC9FC100F385BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LJWRootViewController.xib; sourceTree = "<group>"; };
+		053277B414BC9FC100F385BD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		053277BF14BCA05E00F385BD /* laijiewo-customer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "laijiewo-customer-Info.plist"; sourceTree = "<group>"; };
+		053277C014BCA05E00F385BD /* laijiewo-customer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "laijiewo-customer-Prefix.pch"; sourceTree = "<group>"; };
+		053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "laijiewo-shared.xcodeproj"; path = "../../../laijiewo-shared/trunk/laijiewo-shared.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0532776114BC9F4A00F385BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053277D814BCA08E00F385BD /* liblaijiewo-shared.a in Frameworks */,
+				0532776914BC9F4A00F385BD /* UIKit.framework in Frameworks */,
+				0532776B14BC9F4A00F385BD /* Foundation.framework in Frameworks */,
+				0532776D14BC9F4A00F385BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532778114BC9F4A00F385BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532778714BC9F4A00F385BD /* SenTestingKit.framework in Frameworks */,
+				0532778814BC9F4A00F385BD /* UIKit.framework in Frameworks */,
+				0532778914BC9F4A00F385BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0532775914BC9F4800F385BD = {
+			isa = PBXGroup;
+			children = (
+				053277BE14BC9FFE00F385BD /* tplibs */,
+				0532776E14BC9F4A00F385BD /* laijiewo-customer */,
+				0532778C14BC9F4A00F385BD /* laijiewo-customerTests */,
+				0532776714BC9F4A00F385BD /* Frameworks */,
+				0532776514BC9F4A00F385BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0532776514BC9F4A00F385BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0532776414BC9F4A00F385BD /* laijiewo-customer.app */,
+				0532778514BC9F4A00F385BD /* laijiewo-customerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0532776714BC9F4A00F385BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0532776814BC9F4A00F385BD /* UIKit.framework */,
+				0532776A14BC9F4A00F385BD /* Foundation.framework */,
+				0532776C14BC9F4A00F385BD /* CoreGraphics.framework */,
+				0532778614BC9F4A00F385BD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0532776E14BC9F4A00F385BD /* laijiewo-customer */ = {
+			isa = PBXGroup;
+			children = (
+				053277AB14BC9FC100F385BD /* models */,
+				053277B514BC9FC100F385BD /* views */,
+				053277A514BC9FC100F385BD /* controllers */,
+				053277AA14BC9FC100F385BD /* helpers */,
+				053277AC14BC9FC100F385BD /* resources */,
+				053277B114BC9FC100F385BD /* supporting files */,
+			);
+			path = "laijiewo-customer";
+			sourceTree = "<group>";
+		};
+		0532778C14BC9F4A00F385BD /* laijiewo-customerTests */ = {
+			isa = PBXGroup;
+			children = (
+				053277A114BC9F8800F385BD /* laijiewo_customerTests.h */,
+				053277A214BC9F8800F385BD /* laijiewo_customerTests.m */,
+				0532778D14BC9F4A00F385BD /* Supporting Files */,
+			);
+			path = "laijiewo-customerTests";
+			sourceTree = "<group>";
+		};
+		0532778D14BC9F4A00F385BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0532778E14BC9F4A00F385BD /* laijiewo-customerTests-Info.plist */,
+				0532778F14BC9F4A00F385BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053277A514BC9FC100F385BD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				053277BD14BC9FE800F385BD /* root view controller */,
+				053277BC14BC9FDB00F385BD /* app delegate */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		053277AA14BC9FC100F385BD /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		053277AB14BC9FC100F385BD /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		053277AC14BC9FC100F385BD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				053277AD14BC9FC100F385BD /* InfoPlist.strings */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		053277B114BC9FC100F385BD /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				053277BF14BCA05E00F385BD /* laijiewo-customer-Info.plist */,
+				053277C014BCA05E00F385BD /* laijiewo-customer-Prefix.pch */,
+				053277B414BC9FC100F385BD /* main.m */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		053277B514BC9FC100F385BD /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		053277BC14BC9FDB00F385BD /* app delegate */ = {
+			isa = PBXGroup;
+			children = (
+				053277A614BC9FC100F385BD /* LJWAppDelegate.h */,
+				053277A714BC9FC100F385BD /* LJWAppDelegate.m */,
+			);
+			name = "app delegate";
+			sourceTree = "<group>";
+		};
+		053277BD14BC9FE800F385BD /* root view controller */ = {
+			isa = PBXGroup;
+			children = (
+				053277A814BC9FC100F385BD /* LJWRootViewController.h */,
+				053277A914BC9FC100F385BD /* LJWRootViewController.m */,
+				053277AF14BC9FC100F385BD /* LJWRootViewController.xib */,
+			);
+			name = "root view controller";
+			sourceTree = "<group>";
+		};
+		053277BE14BC9FFE00F385BD /* tplibs */ = {
+			isa = PBXGroup;
+			children = (
+				053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */,
+			);
+			path = tplibs;
+			sourceTree = "<group>";
+		};
+		053277C314BCA07B00F385BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053277CF14BCA07B00F385BD /* liblaijiewo-shared.a */,
+				053277D114BCA07B00F385BD /* laijiewo-sharedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0532776314BC9F4A00F385BD /* laijiewo-customer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0532779714BC9F4A00F385BD /* Build configuration list for PBXNativeTarget "laijiewo-customer" */;
+			buildPhases = (
+				0532776014BC9F4A00F385BD /* Sources */,
+				0532776114BC9F4A00F385BD /* Frameworks */,
+				0532776214BC9F4A00F385BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053277D714BCA08600F385BD /* PBXTargetDependency */,
+			);
+			name = "laijiewo-customer";
+			productName = "laijiewo-customer";
+			productReference = 0532776414BC9F4A00F385BD /* laijiewo-customer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0532778414BC9F4A00F385BD /* laijiewo-customerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0532779A14BC9F4A00F385BD /* Build configuration list for PBXNativeTarget "laijiewo-customerTests" */;
+			buildPhases = (
+				0532778014BC9F4A00F385BD /* Sources */,
+				0532778114BC9F4A00F385BD /* Frameworks */,
+				0532778214BC9F4A00F385BD /* Resources */,
+				0532778314BC9F4A00F385BD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0532778B14BC9F4A00F385BD /* PBXTargetDependency */,
+			);
+			name = "laijiewo-customerTests";
+			productName = "laijiewo-customerTests";
+			productReference = 0532778514BC9F4A00F385BD /* laijiewo-customerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0532775B14BC9F4800F385BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0532775E14BC9F4800F385BD /* Build configuration list for PBXProject "laijiewo-customer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0532775914BC9F4800F385BD;
+			productRefGroup = 0532776514BC9F4A00F385BD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 053277C314BCA07B00F385BD /* Products */;
+					ProjectRef = 053277C214BCA07B00F385BD /* laijiewo-shared.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0532776314BC9F4A00F385BD /* laijiewo-customer */,
+				0532778414BC9F4A00F385BD /* laijiewo-customerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		053277CF14BCA07B00F385BD /* liblaijiewo-shared.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblaijiewo-shared.a";
+			remoteRef = 053277CE14BCA07B00F385BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		053277D114BCA07B00F385BD /* laijiewo-sharedTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "laijiewo-sharedTests.octest";
+			remoteRef = 053277D014BCA07B00F385BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0532776214BC9F4A00F385BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053277B814BC9FC100F385BD /* InfoPlist.strings in Resources */,
+				053277B914BC9FC100F385BD /* LJWRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532778214BC9F4A00F385BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532779114BC9F4A00F385BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0532778314BC9F4A00F385BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0532776014BC9F4A00F385BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053277B614BC9FC100F385BD /* LJWAppDelegate.m in Sources */,
+				053277B714BC9FC100F385BD /* LJWRootViewController.m in Sources */,
+				053277BB14BC9FC100F385BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532778014BC9F4A00F385BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053277A314BC9F8800F385BD /* laijiewo_customerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0532778B14BC9F4A00F385BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0532776314BC9F4A00F385BD /* laijiewo-customer */;
+			targetProxy = 0532778A14BC9F4A00F385BD /* PBXContainerItemProxy */;
+		};
+		053277D714BCA08600F385BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "laijiewo-shared";
+			targetProxy = 053277D614BCA08600F385BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0532778F14BC9F4A00F385BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0532779014BC9F4A00F385BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		053277AD14BC9FC100F385BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053277AE14BC9FC100F385BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		053277AF14BC9FC100F385BD /* LJWRootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053277B014BC9FC100F385BD /* en */,
+			);
+			name = LJWRootViewController.xib;
+			path = ../resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0532779514BC9F4A00F385BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0532779614BC9F4A00F385BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0532779814BC9F4A00F385BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-customer/supporting files/laijiewo-customer-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-customer/supporting files/laijiewo-customer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0532779914BC9F4A00F385BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-customer/supporting files/laijiewo-customer-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-customer/supporting files/laijiewo-customer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0532779B14BC9F4A00F385BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laijiewo-customer.app/laijiewo-customer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-customer/laijiewo-customer-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-customerTests/laijiewo-customerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0532779C14BC9F4A00F385BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laijiewo-customer.app/laijiewo-customer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-customer/laijiewo-customer-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-customerTests/laijiewo-customerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0532775E14BC9F4800F385BD /* Build configuration list for PBXProject "laijiewo-customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532779514BC9F4A00F385BD /* Debug */,
+				0532779614BC9F4A00F385BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0532779714BC9F4A00F385BD /* Build configuration list for PBXNativeTarget "laijiewo-customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532779814BC9F4A00F385BD /* Debug */,
+				0532779914BC9F4A00F385BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0532779A14BC9F4A00F385BD /* Build configuration list for PBXNativeTarget "laijiewo-customerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532779B14BC9F4A00F385BD /* Debug */,
+				0532779C14BC9F4A00F385BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0532775B14BC9F4800F385BD /* Project object */;
+}

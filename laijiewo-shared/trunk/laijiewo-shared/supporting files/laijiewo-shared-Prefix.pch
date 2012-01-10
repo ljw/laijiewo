@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'laijiewo-shared' target in the 'laijiewo-shared' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

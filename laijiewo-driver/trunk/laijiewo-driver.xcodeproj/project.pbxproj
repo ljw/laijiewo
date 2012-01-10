@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0523479014BC918200173EE9 /* LJWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523478114BC918200173EE9 /* LJWAppDelegate.m */; };
+		0523479114BC918200173EE9 /* LJWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523478314BC918200173EE9 /* LJWViewController.m */; };
+		0523479214BC918200173EE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0523478714BC918200173EE9 /* InfoPlist.strings */; };
+		0523479314BC918200173EE9 /* LJWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0523478914BC918200173EE9 /* LJWViewController.xib */; };
+		0523479514BC918200173EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523478E14BC918200173EE9 /* main.m */; };
+		052347C214BC91FE00173EE9 /* liblaijiewo-shared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 052347B214BC91C900173EE9 /* liblaijiewo-shared.a */; };
+		05434FA514BC8A4F00CCB14E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FA414BC8A4F00CCB14E /* UIKit.framework */; };
+		05434FA714BC8A4F00CCB14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FA614BC8A4F00CCB14E /* Foundation.framework */; };
+		05434FA914BC8A4F00CCB14E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FA814BC8A4F00CCB14E /* CoreGraphics.framework */; };
+		05434FC314BC8A5000CCB14E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FC214BC8A5000CCB14E /* SenTestingKit.framework */; };
+		05434FC414BC8A5000CCB14E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FA414BC8A4F00CCB14E /* UIKit.framework */; };
+		05434FC514BC8A5000CCB14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434FA614BC8A4F00CCB14E /* Foundation.framework */; };
+		05434FCD14BC8A5000CCB14E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05434FCB14BC8A5000CCB14E /* InfoPlist.strings */; };
+		05434FD014BC8A5000CCB14E /* laijiewo_driverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05434FCF14BC8A5000CCB14E /* laijiewo_driverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052347B114BC91C900173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05434EE314BC89EC00CCB14E;
+			remoteInfo = "laijiewo-shared";
+		};
+		052347B314BC91C900173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05434EF314BC89EC00CCB14E;
+			remoteInfo = "laijiewo-sharedTests";
+		};
+		052347C014BC91F600173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 05434EE214BC89EC00CCB14E;
+			remoteInfo = "laijiewo-shared";
+		};
+		05434FC614BC8A5000CCB14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05434F9714BC8A4F00CCB14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05434F9F14BC8A4F00CCB14E;
+			remoteInfo = "laijiewo-driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0523478014BC918200173EE9 /* LJWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWAppDelegate.h; sourceTree = "<group>"; };
+		0523478114BC918200173EE9 /* LJWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWAppDelegate.m; sourceTree = "<group>"; };
+		0523478214BC918200173EE9 /* LJWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWViewController.h; sourceTree = "<group>"; };
+		0523478314BC918200173EE9 /* LJWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWViewController.m; sourceTree = "<group>"; };
+		0523478814BC918200173EE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0523478A14BC918200173EE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LJWViewController.xib; sourceTree = "<group>"; };
+		0523478C14BC918200173EE9 /* laijiewo-driver-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "laijiewo-driver-Info.plist"; sourceTree = "<group>"; };
+		0523478D14BC918200173EE9 /* laijiewo-driver-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "laijiewo-driver-Prefix.pch"; sourceTree = "<group>"; };
+		0523478E14BC918200173EE9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "laijiewo-shared.xcodeproj"; path = "../../../laijiewo-shared/trunk/laijiewo-shared.xcodeproj"; sourceTree = "<group>"; };
+		05434FA014BC8A4F00CCB14E /* laijiewo-driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laijiewo-driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05434FA414BC8A4F00CCB14E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05434FA614BC8A4F00CCB14E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05434FA814BC8A4F00CCB14E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05434FC114BC8A5000CCB14E /* laijiewo-driverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laijiewo-driverTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05434FC214BC8A5000CCB14E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		05434FCA14BC8A5000CCB14E /* laijiewo-driverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "laijiewo-driverTests-Info.plist"; sourceTree = "<group>"; };
+		05434FCC14BC8A5000CCB14E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05434FCE14BC8A5000CCB14E /* laijiewo_driverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laijiewo_driverTests.h; sourceTree = "<group>"; };
+		05434FCF14BC8A5000CCB14E /* laijiewo_driverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laijiewo_driverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05434F9D14BC8A4F00CCB14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052347C214BC91FE00173EE9 /* liblaijiewo-shared.a in Frameworks */,
+				05434FA514BC8A4F00CCB14E /* UIKit.framework in Frameworks */,
+				05434FA714BC8A4F00CCB14E /* Foundation.framework in Frameworks */,
+				05434FA914BC8A4F00CCB14E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05434FBD14BC8A5000CCB14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434FC314BC8A5000CCB14E /* SenTestingKit.framework in Frameworks */,
+				05434FC414BC8A5000CCB14E /* UIKit.framework in Frameworks */,
+				05434FC514BC8A5000CCB14E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0523477F14BC918200173EE9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0523478014BC918200173EE9 /* LJWAppDelegate.h */,
+				0523478114BC918200173EE9 /* LJWAppDelegate.m */,
+				0523478214BC918200173EE9 /* LJWViewController.h */,
+				0523478314BC918200173EE9 /* LJWViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0523478414BC918200173EE9 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		0523478514BC918200173EE9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0523478614BC918200173EE9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0523478714BC918200173EE9 /* InfoPlist.strings */,
+				0523478914BC918200173EE9 /* LJWViewController.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0523478B14BC918200173EE9 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0523478C14BC918200173EE9 /* laijiewo-driver-Info.plist */,
+				0523478D14BC918200173EE9 /* laijiewo-driver-Prefix.pch */,
+				0523478E14BC918200173EE9 /* main.m */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		0523478F14BC918200173EE9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		052347A414BC919200173EE9 /* tplibs */ = {
+			isa = PBXGroup;
+			children = (
+				052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */,
+			);
+			name = tplibs;
+			path = "../../laojiewo-customer/trunk/tplibs";
+			sourceTree = "<group>";
+		};
+		052347A614BC91C800173EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052347B214BC91C900173EE9 /* liblaijiewo-shared.a */,
+				052347B414BC91C900173EE9 /* laijiewo-sharedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05434F9514BC8A4F00CCB14E = {
+			isa = PBXGroup;
+			children = (
+				052347A414BC919200173EE9 /* tplibs */,
+				05434FAA14BC8A4F00CCB14E /* laijiewo-driver */,
+				05434FC814BC8A5000CCB14E /* laijiewo-driverTests */,
+				05434FA314BC8A4F00CCB14E /* Frameworks */,
+				05434FA114BC8A4F00CCB14E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05434FA114BC8A4F00CCB14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05434FA014BC8A4F00CCB14E /* laijiewo-driver.app */,
+				05434FC114BC8A5000CCB14E /* laijiewo-driverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05434FA314BC8A4F00CCB14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05434FA414BC8A4F00CCB14E /* UIKit.framework */,
+				05434FA614BC8A4F00CCB14E /* Foundation.framework */,
+				05434FA814BC8A4F00CCB14E /* CoreGraphics.framework */,
+				05434FC214BC8A5000CCB14E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05434FAA14BC8A4F00CCB14E /* laijiewo-driver */ = {
+			isa = PBXGroup;
+			children = (
+				0523478514BC918200173EE9 /* models */,
+				0523477F14BC918200173EE9 /* controllers */,
+				0523478F14BC918200173EE9 /* views */,
+				0523478414BC918200173EE9 /* helpers */,
+				0523478614BC918200173EE9 /* resources */,
+				0523478B14BC918200173EE9 /* supporting files */,
+			);
+			path = "laijiewo-driver";
+			sourceTree = "<group>";
+		};
+		05434FC814BC8A5000CCB14E /* laijiewo-driverTests */ = {
+			isa = PBXGroup;
+			children = (
+				05434FCE14BC8A5000CCB14E /* laijiewo_driverTests.h */,
+				05434FCF14BC8A5000CCB14E /* laijiewo_driverTests.m */,
+				05434FC914BC8A5000CCB14E /* Supporting Files */,
+			);
+			path = "laijiewo-driverTests";
+			sourceTree = "<group>";
+		};
+		05434FC914BC8A5000CCB14E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05434FCA14BC8A5000CCB14E /* laijiewo-driverTests-Info.plist */,
+				05434FCB14BC8A5000CCB14E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05434F9F14BC8A4F00CCB14E /* laijiewo-driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05434FD314BC8A5000CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-driver" */;
+			buildPhases = (
+				05434F9C14BC8A4F00CCB14E /* Sources */,
+				05434F9D14BC8A4F00CCB14E /* Frameworks */,
+				05434F9E14BC8A4F00CCB14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052347C114BC91F600173EE9 /* PBXTargetDependency */,
+			);
+			name = "laijiewo-driver";
+			productName = "laijiewo-driver";
+			productReference = 05434FA014BC8A4F00CCB14E /* laijiewo-driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05434FC014BC8A5000CCB14E /* laijiewo-driverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05434FD614BC8A5000CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-driverTests" */;
+			buildPhases = (
+				05434FBC14BC8A5000CCB14E /* Sources */,
+				05434FBD14BC8A5000CCB14E /* Frameworks */,
+				05434FBE14BC8A5000CCB14E /* Resources */,
+				05434FBF14BC8A5000CCB14E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05434FC714BC8A5000CCB14E /* PBXTargetDependency */,
+			);
+			name = "laijiewo-driverTests";
+			productName = "laijiewo-driverTests";
+			productReference = 05434FC114BC8A5000CCB14E /* laijiewo-driverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05434F9714BC8A4F00CCB14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 05434F9A14BC8A4F00CCB14E /* Build configuration list for PBXProject "laijiewo-driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05434F9514BC8A4F00CCB14E;
+			productRefGroup = 05434FA114BC8A4F00CCB14E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 052347A614BC91C800173EE9 /* Products */;
+					ProjectRef = 052347A514BC91C800173EE9 /* laijiewo-shared.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05434F9F14BC8A4F00CCB14E /* laijiewo-driver */,
+				05434FC014BC8A5000CCB14E /* laijiewo-driverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		052347B214BC91C900173EE9 /* liblaijiewo-shared.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblaijiewo-shared.a";
+			remoteRef = 052347B114BC91C900173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		052347B414BC91C900173EE9 /* laijiewo-sharedTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "laijiewo-sharedTests.octest";
+			remoteRef = 052347B314BC91C900173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05434F9E14BC8A4F00CCB14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523479214BC918200173EE9 /* InfoPlist.strings in Resources */,
+				0523479314BC918200173EE9 /* LJWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05434FBE14BC8A5000CCB14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434FCD14BC8A5000CCB14E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05434FBF14BC8A5000CCB14E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05434F9C14BC8A4F00CCB14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523479014BC918200173EE9 /* LJWAppDelegate.m in Sources */,
+				0523479114BC918200173EE9 /* LJWViewController.m in Sources */,
+				0523479514BC918200173EE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05434FBC14BC8A5000CCB14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434FD014BC8A5000CCB14E /* laijiewo_driverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052347C114BC91F600173EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "laijiewo-shared";
+			targetProxy = 052347C014BC91F600173EE9 /* PBXContainerItemProxy */;
+		};
+		05434FC714BC8A5000CCB14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05434F9F14BC8A4F00CCB14E /* laijiewo-driver */;
+			targetProxy = 05434FC614BC8A5000CCB14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0523478714BC918200173EE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0523478814BC918200173EE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0523478914BC918200173EE9 /* LJWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0523478A14BC918200173EE9 /* en */,
+			);
+			name = LJWViewController.xib;
+			sourceTree = "<group>";
+		};
+		05434FCB14BC8A5000CCB14E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05434FCC14BC8A5000CCB14E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05434FD114BC8A5000CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05434FD214BC8A5000CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05434FD414BC8A5000CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-driver/supporting files/laijiewo-driver-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-driver/supporting files/laijiewo-driver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05434FD514BC8A5000CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-driver/supporting files/laijiewo-driver-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-driver/supporting files/laijiewo-driver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05434FD714BC8A5000CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laijiewo-driver.app/laijiewo-driver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-driver/laijiewo-driver-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-driverTests/laijiewo-driverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05434FD814BC8A5000CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laijiewo-driver.app/laijiewo-driver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-driver/laijiewo-driver-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-driverTests/laijiewo-driverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05434F9A14BC8A4F00CCB14E /* Build configuration list for PBXProject "laijiewo-driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434FD114BC8A5000CCB14E /* Debug */,
+				05434FD214BC8A5000CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05434FD314BC8A5000CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434FD414BC8A5000CCB14E /* Debug */,
+				05434FD514BC8A5000CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05434FD614BC8A5000CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-driverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434FD714BC8A5000CCB14E /* Debug */,
+				05434FD814BC8A5000CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05434F9714BC8A4F00CCB14E /* Project object */;
+}

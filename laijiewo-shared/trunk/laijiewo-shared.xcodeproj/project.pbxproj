@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0523472514BC8E5900173EE9 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523471B14BC8E3D00173EE9 /* libRestKit.a */; };
+		0523472714BC8E6400173EE9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523472614BC8E6400173EE9 /* CFNetwork.framework */; };
+		0523472914BC8E6A00173EE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523472814BC8E6A00173EE9 /* SystemConfiguration.framework */; };
+		0523472B14BC8E7600173EE9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523472A14BC8E7600173EE9 /* MobileCoreServices.framework */; };
+		0523472D14BC8E8200173EE9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523472C14BC8E8200173EE9 /* libxml2.dylib */; };
+		0523476314BC90BF00173EE9 /* DummyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0523476114BC90BF00173EE9 /* DummyModel.h */; };
+		0523476414BC90BF00173EE9 /* DummyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523476214BC90BF00173EE9 /* DummyModel.m */; };
+		05434EE714BC89EC00CCB14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EE614BC89EC00CCB14E /* Foundation.framework */; };
+		05434EF514BC89ED00CCB14E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EF414BC89EC00CCB14E /* SenTestingKit.framework */; };
+		05434EF714BC89ED00CCB14E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EF614BC89ED00CCB14E /* UIKit.framework */; };
+		05434EF814BC89ED00CCB14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EE614BC89EC00CCB14E /* Foundation.framework */; };
+		05434EFB14BC89ED00CCB14E /* liblaijiewo-shared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EE314BC89EC00CCB14E /* liblaijiewo-shared.a */; };
+		05434F0114BC89ED00CCB14E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05434EFF14BC89ED00CCB14E /* InfoPlist.strings */; };
+		05434F0414BC89ED00CCB14E /* laijiewo_sharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05434F0314BC89ED00CCB14E /* laijiewo_sharedTests.m */; };
+		05434FF214BC8C5400CCB14E /* laijiewo-shared-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 05434FF114BC8C5400CCB14E /* laijiewo-shared-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0523471A14BC8E3D00173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		0523471C14BC8E3D00173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		0523471E14BC8E3D00173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		0523472014BC8E3D00173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		0523472314BC8E5400173EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		05434EF914BC89ED00CCB14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05434EDA14BC89EB00CCB14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05434EE214BC89EC00CCB14E;
+			remoteInfo = "laijiewo-shared";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = "RestKit-RestKit-4d99d28/RestKit.xcodeproj"; sourceTree = "<group>"; };
+		0523472614BC8E6400173EE9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0523472814BC8E6A00173EE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0523472A14BC8E7600173EE9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0523472C14BC8E8200173EE9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0523476114BC90BF00173EE9 /* DummyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyModel.h; sourceTree = "<group>"; };
+		0523476214BC90BF00173EE9 /* DummyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyModel.m; sourceTree = "<group>"; };
+		05434EE314BC89EC00CCB14E /* liblaijiewo-shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblaijiewo-shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05434EE614BC89EC00CCB14E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05434EEB14BC89EC00CCB14E /* laijiewo_shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laijiewo_shared.h; sourceTree = "<group>"; };
+		05434EF314BC89EC00CCB14E /* laijiewo-sharedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laijiewo-sharedTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05434EF414BC89EC00CCB14E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		05434EF614BC89ED00CCB14E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		05434EFE14BC89ED00CCB14E /* laijiewo-sharedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "laijiewo-sharedTests-Info.plist"; sourceTree = "<group>"; };
+		05434F0014BC89ED00CCB14E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05434F0214BC89ED00CCB14E /* laijiewo_sharedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laijiewo_sharedTests.h; sourceTree = "<group>"; };
+		05434F0314BC89ED00CCB14E /* laijiewo_sharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laijiewo_sharedTests.m; sourceTree = "<group>"; };
+		05434FF114BC8C5400CCB14E /* laijiewo-shared-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "laijiewo-shared-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05434EE014BC89EC00CCB14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523472D14BC8E8200173EE9 /* libxml2.dylib in Frameworks */,
+				0523472B14BC8E7600173EE9 /* MobileCoreServices.framework in Frameworks */,
+				0523472914BC8E6A00173EE9 /* SystemConfiguration.framework in Frameworks */,
+				0523472714BC8E6400173EE9 /* CFNetwork.framework in Frameworks */,
+				0523472514BC8E5900173EE9 /* libRestKit.a in Frameworks */,
+				05434EE714BC89EC00CCB14E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05434EEF14BC89EC00CCB14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434EF514BC89ED00CCB14E /* SenTestingKit.framework in Frameworks */,
+				05434EF714BC89ED00CCB14E /* UIKit.framework in Frameworks */,
+				05434EF814BC89ED00CCB14E /* Foundation.framework in Frameworks */,
+				05434EFB14BC89ED00CCB14E /* liblaijiewo-shared.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0523471114BC8E3D00173EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0523471B14BC8E3D00173EE9 /* libRestKit.a */,
+				0523471D14BC8E3D00173EE9 /* RestKitTests.octest */,
+				0523471F14BC8E3D00173EE9 /* RestKit.framework */,
+				0523472114BC8E3D00173EE9 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0523476014BC909F00173EE9 /* restful models */ = {
+			isa = PBXGroup;
+			children = (
+				0523476114BC90BF00173EE9 /* DummyModel.h */,
+				0523476214BC90BF00173EE9 /* DummyModel.m */,
+			);
+			name = "restful models";
+			sourceTree = "<group>";
+		};
+		05434ED814BC89EB00CCB14E = {
+			isa = PBXGroup;
+			children = (
+				05434FF814BC8D2A00CCB14E /* tplibs */,
+				05434EE814BC89EC00CCB14E /* laijiewo-shared */,
+				05434EFC14BC89ED00CCB14E /* laijiewo-sharedTests */,
+				05434EE514BC89EC00CCB14E /* Frameworks */,
+				05434EE414BC89EC00CCB14E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05434EE414BC89EC00CCB14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05434EE314BC89EC00CCB14E /* liblaijiewo-shared.a */,
+				05434EF314BC89EC00CCB14E /* laijiewo-sharedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05434EE514BC89EC00CCB14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0523472C14BC8E8200173EE9 /* libxml2.dylib */,
+				0523472A14BC8E7600173EE9 /* MobileCoreServices.framework */,
+				0523472814BC8E6A00173EE9 /* SystemConfiguration.framework */,
+				0523472614BC8E6400173EE9 /* CFNetwork.framework */,
+				05434EE614BC89EC00CCB14E /* Foundation.framework */,
+				05434EF414BC89EC00CCB14E /* SenTestingKit.framework */,
+				05434EF614BC89ED00CCB14E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05434EE814BC89EC00CCB14E /* laijiewo-shared */ = {
+			isa = PBXGroup;
+			children = (
+				05434EEB14BC89EC00CCB14E /* laijiewo_shared.h */,
+				05434FF314BC8C8B00CCB14E /* controllers */,
+				05434FF414BC8C8B00CCB14E /* helpers */,
+				05434FF514BC8C8B00CCB14E /* models */,
+				05434FF614BC8C8C00CCB14E /* views */,
+				05434FF014BC8C5400CCB14E /* supporting files */,
+			);
+			path = "laijiewo-shared";
+			sourceTree = "<group>";
+		};
+		05434EFC14BC89ED00CCB14E /* laijiewo-sharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				05434F0214BC89ED00CCB14E /* laijiewo_sharedTests.h */,
+				05434F0314BC89ED00CCB14E /* laijiewo_sharedTests.m */,
+				05434EFD14BC89ED00CCB14E /* Supporting Files */,
+			);
+			path = "laijiewo-sharedTests";
+			sourceTree = "<group>";
+		};
+		05434EFD14BC89ED00CCB14E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05434EFE14BC89ED00CCB14E /* laijiewo-sharedTests-Info.plist */,
+				05434EFF14BC89ED00CCB14E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05434FF014BC8C5400CCB14E /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				05434FF114BC8C5400CCB14E /* laijiewo-shared-Prefix.pch */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		05434FF314BC8C8B00CCB14E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		05434FF414BC8C8B00CCB14E /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		05434FF514BC8C8B00CCB14E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0523476014BC909F00173EE9 /* restful models */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		05434FF614BC8C8C00CCB14E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		05434FF814BC8D2A00CCB14E /* tplibs */ = {
+			isa = PBXGroup;
+			children = (
+				054353B114BC8D5300CCB14E /* RestKit */,
+			);
+			path = tplibs;
+			sourceTree = "<group>";
+		};
+		054353B114BC8D5300CCB14E /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */,
+			);
+			name = RestKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05434EE114BC89EC00CCB14E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434FF214BC8C5400CCB14E /* laijiewo-shared-Prefix.pch in Headers */,
+				0523476314BC90BF00173EE9 /* DummyModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05434EE214BC89EC00CCB14E /* laijiewo-shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05434F0714BC89ED00CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-shared" */;
+			buildPhases = (
+				05434EDF14BC89EC00CCB14E /* Sources */,
+				05434EE014BC89EC00CCB14E /* Frameworks */,
+				05434EE114BC89EC00CCB14E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0523472414BC8E5400173EE9 /* PBXTargetDependency */,
+			);
+			name = "laijiewo-shared";
+			productName = "laijiewo-shared";
+			productReference = 05434EE314BC89EC00CCB14E /* liblaijiewo-shared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05434EF214BC89EC00CCB14E /* laijiewo-sharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05434F0A14BC89ED00CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-sharedTests" */;
+			buildPhases = (
+				05434EEE14BC89EC00CCB14E /* Sources */,
+				05434EEF14BC89EC00CCB14E /* Frameworks */,
+				05434EF014BC89EC00CCB14E /* Resources */,
+				05434EF114BC89EC00CCB14E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05434EFA14BC89ED00CCB14E /* PBXTargetDependency */,
+			);
+			name = "laijiewo-sharedTests";
+			productName = "laijiewo-sharedTests";
+			productReference = 05434EF314BC89EC00CCB14E /* laijiewo-sharedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05434EDA14BC89EB00CCB14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 05434EDD14BC89EB00CCB14E /* Build configuration list for PBXProject "laijiewo-shared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05434ED814BC89EB00CCB14E;
+			productRefGroup = 05434EE414BC89EC00CCB14E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0523471114BC8E3D00173EE9 /* Products */;
+					ProjectRef = 0523471014BC8E3D00173EE9 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05434EE214BC89EC00CCB14E /* laijiewo-shared */,
+				05434EF214BC89EC00CCB14E /* laijiewo-sharedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0523471B14BC8E3D00173EE9 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 0523471A14BC8E3D00173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0523471D14BC8E3D00173EE9 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 0523471C14BC8E3D00173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0523471F14BC8E3D00173EE9 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 0523471E14BC8E3D00173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0523472114BC8E3D00173EE9 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 0523472014BC8E3D00173EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05434EF014BC89EC00CCB14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434F0114BC89ED00CCB14E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05434EF114BC89EC00CCB14E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05434EDF14BC89EC00CCB14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523476414BC90BF00173EE9 /* DummyModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05434EEE14BC89EC00CCB14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05434F0414BC89ED00CCB14E /* laijiewo_sharedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0523472414BC8E5400173EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 0523472314BC8E5400173EE9 /* PBXContainerItemProxy */;
+		};
+		05434EFA14BC89ED00CCB14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05434EE214BC89EC00CCB14E /* laijiewo-shared */;
+			targetProxy = 05434EF914BC89ED00CCB14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05434EFF14BC89ED00CCB14E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05434F0014BC89ED00CCB14E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05434F0514BC89ED00CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05434F0614BC89ED00CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05434F0814BC89ED00CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/laijiewo_shared.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/tplibs/RestKit-RestKit-4d99d28/Specs/Runner/OCHamcrest\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-shared/supporting files/laijiewo-shared-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		05434F0914BC89ED00CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/laijiewo_shared.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/tplibs/RestKit-RestKit-4d99d28/Specs/Runner/OCHamcrest\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-shared/supporting files/laijiewo-shared-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05434F0B14BC89ED00CCB14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-shared/laijiewo-shared-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-sharedTests/laijiewo-sharedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05434F0C14BC89ED00CCB14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laijiewo-shared/laijiewo-shared-Prefix.pch";
+				INFOPLIST_FILE = "laijiewo-sharedTests/laijiewo-sharedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05434EDD14BC89EB00CCB14E /* Build configuration list for PBXProject "laijiewo-shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434F0514BC89ED00CCB14E /* Debug */,
+				05434F0614BC89ED00CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05434F0714BC89ED00CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434F0814BC89ED00CCB14E /* Debug */,
+				05434F0914BC89ED00CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05434F0A14BC89ED00CCB14E /* Build configuration list for PBXNativeTarget "laijiewo-sharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05434F0B14BC89ED00CCB14E /* Debug */,
+				05434F0C14BC89ED00CCB14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05434EDA14BC89EB00CCB14E /* Project object */;
+}
