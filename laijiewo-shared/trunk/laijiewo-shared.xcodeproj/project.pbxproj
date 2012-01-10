@@ -14,6 +14,35 @@
 		0523472D14BC8E8200173EE9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523472C14BC8E8200173EE9 /* libxml2.dylib */; };
 		0523476314BC90BF00173EE9 /* DummyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0523476114BC90BF00173EE9 /* DummyModel.h */; };
 		0523476414BC90BF00173EE9 /* DummyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523476214BC90BF00173EE9 /* DummyModel.m */; };
+		0532783714BCAF9200F385BD /* NSArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532781F14BCAF9200F385BD /* NSArrayAdditions.h */; };
+		0532783814BCAF9200F385BD /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782014BCAF9200F385BD /* NSArrayAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532783914BCAF9200F385BD /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782114BCAF9200F385BD /* NSDataAdditions.h */; };
+		0532783A14BCAF9200F385BD /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782214BCAF9200F385BD /* NSDataAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532783B14BCAF9200F385BD /* NSDateAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782314BCAF9200F385BD /* NSDateAdditions.h */; };
+		0532783C14BCAF9200F385BD /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782414BCAF9200F385BD /* NSDateAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532783D14BCAF9200F385BD /* NSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782514BCAF9200F385BD /* NSMutableArrayAdditions.h */; };
+		0532783E14BCAF9200F385BD /* NSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782614BCAF9200F385BD /* NSMutableArrayAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532783F14BCAF9200F385BD /* NSMutableDictionaryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782714BCAF9200F385BD /* NSMutableDictionaryAdditions.h */; };
+		0532784014BCAF9200F385BD /* NSMutableDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782814BCAF9200F385BD /* NSMutableDictionaryAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784114BCAF9200F385BD /* NSObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782914BCAF9200F385BD /* NSObjectAdditions.h */; };
+		0532784214BCAF9200F385BD /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782A14BCAF9200F385BD /* NSObjectAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784314BCAF9200F385BD /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782B14BCAF9200F385BD /* NSStringAdditions.h */; };
+		0532784414BCAF9200F385BD /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782C14BCAF9200F385BD /* NSStringAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784514BCAF9200F385BD /* TTCorePreprocessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782D14BCAF9200F385BD /* TTCorePreprocessorMacros.h */; };
+		0532784614BCAF9200F385BD /* TTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532782E14BCAF9200F385BD /* TTDebug.h */; };
+		0532784714BCAF9200F385BD /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532782F14BCAF9200F385BD /* TTDebug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784814BCAF9200F385BD /* TTGlobalCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532783014BCAF9200F385BD /* TTGlobalCore.h */; };
+		0532784914BCAF9200F385BD /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532783114BCAF9200F385BD /* TTGlobalCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784A14BCAF9200F385BD /* TTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532783314BCAF9200F385BD /* TTModel.h */; };
+		0532784B14BCAF9200F385BD /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532783414BCAF9200F385BD /* TTModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532784C14BCAF9200F385BD /* TTModelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532783514BCAF9200F385BD /* TTModelDelegate.h */; };
+		0532784D14BCAF9200F385BD /* TTURLRequestCachePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532783614BCAF9200F385BD /* TTURLRequestCachePolicy.h */; };
+		0532785014BCB10300F385BD /* TTGlobalCoreLocale.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532784E14BCB10300F385BD /* TTGlobalCoreLocale.h */; };
+		0532785114BCB10300F385BD /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532784F14BCB10300F385BD /* TTGlobalCoreLocale.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532785414BCB13000F385BD /* TTMarkupStripper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532785214BCB13000F385BD /* TTMarkupStripper.h */; };
+		0532785514BCB13000F385BD /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532785314BCB13000F385BD /* TTMarkupStripper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0532785814BCB15200F385BD /* TTEntityTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 0532785614BCB15200F385BD /* TTEntityTables.h */; };
+		0532785914BCB15200F385BD /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532785714BCB15200F385BD /* TTEntityTables.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05434EE714BC89EC00CCB14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EE614BC89EC00CCB14E /* Foundation.framework */; };
 		05434EF514BC89ED00CCB14E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EF414BC89EC00CCB14E /* SenTestingKit.framework */; };
 		05434EF714BC89ED00CCB14E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05434EF614BC89ED00CCB14E /* UIKit.framework */; };
@@ -77,6 +106,35 @@
 		0523472C14BC8E8200173EE9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0523476114BC90BF00173EE9 /* DummyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyModel.h; sourceTree = "<group>"; };
 		0523476214BC90BF00173EE9 /* DummyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyModel.m; sourceTree = "<group>"; };
+		0532781F14BCAF9200F385BD /* NSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayAdditions.h; sourceTree = "<group>"; };
+		0532782014BCAF9200F385BD /* NSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayAdditions.m; sourceTree = "<group>"; };
+		0532782114BCAF9200F385BD /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		0532782214BCAF9200F385BD /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		0532782314BCAF9200F385BD /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		0532782414BCAF9200F385BD /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
+		0532782514BCAF9200F385BD /* NSMutableArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayAdditions.h; sourceTree = "<group>"; };
+		0532782614BCAF9200F385BD /* NSMutableArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayAdditions.m; sourceTree = "<group>"; };
+		0532782714BCAF9200F385BD /* NSMutableDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableDictionaryAdditions.h; sourceTree = "<group>"; };
+		0532782814BCAF9200F385BD /* NSMutableDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryAdditions.m; sourceTree = "<group>"; };
+		0532782914BCAF9200F385BD /* NSObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAdditions.h; sourceTree = "<group>"; };
+		0532782A14BCAF9200F385BD /* NSObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAdditions.m; sourceTree = "<group>"; };
+		0532782B14BCAF9200F385BD /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		0532782C14BCAF9200F385BD /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		0532782D14BCAF9200F385BD /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
+		0532782E14BCAF9200F385BD /* TTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebug.h; sourceTree = "<group>"; };
+		0532782F14BCAF9200F385BD /* TTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDebug.m; sourceTree = "<group>"; };
+		0532783014BCAF9200F385BD /* TTGlobalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCore.h; sourceTree = "<group>"; };
+		0532783114BCAF9200F385BD /* TTGlobalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCore.m; sourceTree = "<group>"; };
+		0532783314BCAF9200F385BD /* TTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTModel.h; sourceTree = "<group>"; };
+		0532783414BCAF9200F385BD /* TTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTModel.m; sourceTree = "<group>"; };
+		0532783514BCAF9200F385BD /* TTModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTModelDelegate.h; sourceTree = "<group>"; };
+		0532783614BCAF9200F385BD /* TTURLRequestCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLRequestCachePolicy.h; sourceTree = "<group>"; };
+		0532784E14BCB10300F385BD /* TTGlobalCoreLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCoreLocale.h; sourceTree = "<group>"; };
+		0532784F14BCB10300F385BD /* TTGlobalCoreLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCoreLocale.m; sourceTree = "<group>"; };
+		0532785214BCB13000F385BD /* TTMarkupStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMarkupStripper.h; sourceTree = "<group>"; };
+		0532785314BCB13000F385BD /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMarkupStripper.m; sourceTree = "<group>"; };
+		0532785614BCB15200F385BD /* TTEntityTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntityTables.h; sourceTree = "<group>"; };
+		0532785714BCB15200F385BD /* TTEntityTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntityTables.m; sourceTree = "<group>"; };
 		05434EE314BC89EC00CCB14E /* liblaijiewo-shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblaijiewo-shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05434EE614BC89EC00CCB14E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05434EEB14BC89EC00CCB14E /* laijiewo_shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laijiewo_shared.h; sourceTree = "<group>"; };
@@ -136,6 +194,58 @@
 				0523476214BC90BF00173EE9 /* DummyModel.m */,
 			);
 			name = "restful models";
+			sourceTree = "<group>";
+		};
+		053277E414BCAB9500F385BD /* Three20(Part) */ = {
+			isa = PBXGroup;
+			children = (
+				0532781E14BCAF9200F385BD /* Three20Core */,
+				0532783214BCAF9200F385BD /* Three20Network */,
+			);
+			path = "Three20(Part)";
+			sourceTree = "<group>";
+		};
+		0532781E14BCAF9200F385BD /* Three20Core */ = {
+			isa = PBXGroup;
+			children = (
+				0532781F14BCAF9200F385BD /* NSArrayAdditions.h */,
+				0532782014BCAF9200F385BD /* NSArrayAdditions.m */,
+				0532782114BCAF9200F385BD /* NSDataAdditions.h */,
+				0532782214BCAF9200F385BD /* NSDataAdditions.m */,
+				0532782314BCAF9200F385BD /* NSDateAdditions.h */,
+				0532782414BCAF9200F385BD /* NSDateAdditions.m */,
+				0532782514BCAF9200F385BD /* NSMutableArrayAdditions.h */,
+				0532782614BCAF9200F385BD /* NSMutableArrayAdditions.m */,
+				0532782714BCAF9200F385BD /* NSMutableDictionaryAdditions.h */,
+				0532782814BCAF9200F385BD /* NSMutableDictionaryAdditions.m */,
+				0532782914BCAF9200F385BD /* NSObjectAdditions.h */,
+				0532782A14BCAF9200F385BD /* NSObjectAdditions.m */,
+				0532782B14BCAF9200F385BD /* NSStringAdditions.h */,
+				0532782C14BCAF9200F385BD /* NSStringAdditions.m */,
+				0532782D14BCAF9200F385BD /* TTCorePreprocessorMacros.h */,
+				0532782E14BCAF9200F385BD /* TTDebug.h */,
+				0532782F14BCAF9200F385BD /* TTDebug.m */,
+				0532783014BCAF9200F385BD /* TTGlobalCore.h */,
+				0532783114BCAF9200F385BD /* TTGlobalCore.m */,
+				0532784E14BCB10300F385BD /* TTGlobalCoreLocale.h */,
+				0532784F14BCB10300F385BD /* TTGlobalCoreLocale.m */,
+				0532785214BCB13000F385BD /* TTMarkupStripper.h */,
+				0532785314BCB13000F385BD /* TTMarkupStripper.m */,
+				0532785614BCB15200F385BD /* TTEntityTables.h */,
+				0532785714BCB15200F385BD /* TTEntityTables.m */,
+			);
+			path = Three20Core;
+			sourceTree = "<group>";
+		};
+		0532783214BCAF9200F385BD /* Three20Network */ = {
+			isa = PBXGroup;
+			children = (
+				0532783314BCAF9200F385BD /* TTModel.h */,
+				0532783414BCAF9200F385BD /* TTModel.m */,
+				0532783514BCAF9200F385BD /* TTModelDelegate.h */,
+				0532783614BCAF9200F385BD /* TTURLRequestCachePolicy.h */,
+			);
+			path = Three20Network;
 			sourceTree = "<group>";
 		};
 		05434ED814BC89EB00CCB14E = {
@@ -244,6 +354,7 @@
 		05434FF814BC8D2A00CCB14E /* tplibs */ = {
 			isa = PBXGroup;
 			children = (
+				053277E414BCAB9500F385BD /* Three20(Part) */,
 				054353B114BC8D5300CCB14E /* RestKit */,
 			);
 			path = tplibs;
@@ -266,6 +377,22 @@
 			files = (
 				05434FF214BC8C5400CCB14E /* laijiewo-shared-Prefix.pch in Headers */,
 				0523476314BC90BF00173EE9 /* DummyModel.h in Headers */,
+				0532783714BCAF9200F385BD /* NSArrayAdditions.h in Headers */,
+				0532783914BCAF9200F385BD /* NSDataAdditions.h in Headers */,
+				0532783B14BCAF9200F385BD /* NSDateAdditions.h in Headers */,
+				0532783D14BCAF9200F385BD /* NSMutableArrayAdditions.h in Headers */,
+				0532783F14BCAF9200F385BD /* NSMutableDictionaryAdditions.h in Headers */,
+				0532784114BCAF9200F385BD /* NSObjectAdditions.h in Headers */,
+				0532784314BCAF9200F385BD /* NSStringAdditions.h in Headers */,
+				0532784514BCAF9200F385BD /* TTCorePreprocessorMacros.h in Headers */,
+				0532784614BCAF9200F385BD /* TTDebug.h in Headers */,
+				0532784814BCAF9200F385BD /* TTGlobalCore.h in Headers */,
+				0532784A14BCAF9200F385BD /* TTModel.h in Headers */,
+				0532784C14BCAF9200F385BD /* TTModelDelegate.h in Headers */,
+				0532784D14BCAF9200F385BD /* TTURLRequestCachePolicy.h in Headers */,
+				0532785014BCB10300F385BD /* TTGlobalCoreLocale.h in Headers */,
+				0532785414BCB13000F385BD /* TTMarkupStripper.h in Headers */,
+				0532785814BCB15200F385BD /* TTEntityTables.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +532,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0523476414BC90BF00173EE9 /* DummyModel.m in Sources */,
+				0532783814BCAF9200F385BD /* NSArrayAdditions.m in Sources */,
+				0532783A14BCAF9200F385BD /* NSDataAdditions.m in Sources */,
+				0532783C14BCAF9200F385BD /* NSDateAdditions.m in Sources */,
+				0532783E14BCAF9200F385BD /* NSMutableArrayAdditions.m in Sources */,
+				0532784014BCAF9200F385BD /* NSMutableDictionaryAdditions.m in Sources */,
+				0532784214BCAF9200F385BD /* NSObjectAdditions.m in Sources */,
+				0532784414BCAF9200F385BD /* NSStringAdditions.m in Sources */,
+				0532784714BCAF9200F385BD /* TTDebug.m in Sources */,
+				0532784914BCAF9200F385BD /* TTGlobalCore.m in Sources */,
+				0532784B14BCAF9200F385BD /* TTModel.m in Sources */,
+				0532785114BCB10300F385BD /* TTGlobalCoreLocale.m in Sources */,
+				0532785514BCB13000F385BD /* TTMarkupStripper.m in Sources */,
+				0532785914BCB15200F385BD /* TTEntityTables.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +599,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "tplibs/Three20(Part)";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
@@ -476,9 +617,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "tplibs/Three20(Part)";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -489,10 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/laijiewo_shared.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/tplibs/RestKit-RestKit-4d99d28/Specs/Runner/OCHamcrest\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "laijiewo-shared/supporting files/laijiewo-shared-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -505,10 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/laijiewo_shared.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/tplibs/RestKit-RestKit-4d99d28/Specs/Runner/OCHamcrest\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "laijiewo-shared/supporting files/laijiewo-shared-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
